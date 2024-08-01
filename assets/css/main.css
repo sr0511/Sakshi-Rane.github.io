@@ -3215,6 +3215,11 @@ input, select, textarea {
 					display: none;
 				}
 
+		/* stuff i have made  */
+		.card .card-body{
+			height: 20vh;
+		}
+
 		/* Footer */
 
 			#footer .copyright li {
@@ -3256,7 +3261,7 @@ input, select, textarea {
 .card img{
 	height: 32vh;
     width: 100%;
-	object-fit: cover;
+	/* object-fit: cover; */
 }
 
 .card .card-body{
@@ -3264,7 +3269,7 @@ input, select, textarea {
     height: 30vh;
     background: rgba(188, 153, 230,0.1);
     backdrop-filter: blur(10px);
-    padding: 20px;
+    padding: 10px;
     color: #5C24A8;
 }
 
